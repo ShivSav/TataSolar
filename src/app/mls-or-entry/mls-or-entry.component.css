@@ -1,0 +1,33 @@
+.price-table-wrapper{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}  
+.navigation{
+    border-top: 15px solid transparent;
+    border-left: 25px solid blueviolet;
+    border-bottom: 15px solid transparent;
+    width: 13%;
+    background-color: skyblue;
+    border-radius: 20px;
+    height: 0px;
+    display: inline-block;
+    line-height: 0px;
+    text-align: center; 
+}
+    .pricing-table{
+      display: inline-block;
+      border: 1px solid #C8C8C8;
+      border-radius: 10px;
+      background: white;
+      margin: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+    .pricing-table__list{
+        padding: 20px;
+        color: black;
+    }
+        li{
+          padding: 15px;
+          border-bottom: 1px solid skyblue ;
+          }
